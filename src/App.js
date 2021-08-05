@@ -37,10 +37,12 @@ function App() {
           <div className="col-lg-12 mb-3" key={post.id}>
             <div className="card">
               <div className="card-body">
-                <h4>
-                 {post.id} {post.first_name} 
-                </h4>
+              
                 <img src={post.avatar} alt="imgage"/>
+                <h4>
+                  {post.first_name} {post.last_name}<br/>
+                  
+                </h4>
                 <h5> Email: {post.email}</h5>
               </div>
             </div>
